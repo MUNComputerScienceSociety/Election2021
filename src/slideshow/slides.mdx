@@ -1,11 +1,10 @@
-import { FlexBox, Markdown } from 'spectacle';
+import RoundChart from './../components/round_chart.jsx';
+import TestElectionDisplay from './../components/test_election_display.jsx';
+import Election from './../../election.json';
+import { useState } from 'react';
 
-<FlexBox alignItems="center" justifyContent="center" flex={1}>
-<Markdown>
-    # Hello World
+<TestElectionDisplay position={Election['International Student Representative']} />
 
-    This is some text.
+---
 
-</Markdown>
-
-</FlexBox>
+<TestElectionDisplay position={Election['First Year Representative']} />

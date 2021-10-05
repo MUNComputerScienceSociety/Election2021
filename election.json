@@ -1,0 +1,404 @@
+{
+    "First Year Representative": {
+        "rounds": [
+            {
+                "votes": {
+                    "Abdulrahman Marwan Mahmood": 31,
+                    "Colton Fridgen": 14,
+                    "Mohammad Tanvir Azam Rizvie": 10,
+                    "Trishir Kumar Singh": 8,
+                    "Girish Verma": 4
+                },
+                "candidate_status": {
+                    "Abdulrahman Marwan Mahmood": "Elected",
+                    "Colton Fridgen": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Trishir Kumar Singh": "Hopeful",
+                    "Girish Verma": "Hopeful"
+                }
+            },
+            {
+                "votes": {
+                    "Abdulrahman Marwan Mahmood": 22,
+                    "Colton Fridgen": 15,
+                    "Mohammad Tanvir Azam Rizvie": 11,
+                    "Trishir Kumar Singh": 10,
+                    "Girish Verma": 4
+                },
+                "candidate_status": {
+                    "Abdulrahman Marwan Mahmood": "Elected",
+                    "Colton Fridgen": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Trishir Kumar Singh": "Hopeful",
+                    "Girish Verma": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Abdulrahman Marwan Mahmood": 22,
+                    "Colton Fridgen": 17,
+                    "Mohammad Tanvir Azam Rizvie": 12,
+                    "Trishir Kumar Singh": 11,
+                    "Girish Verma": 0
+                },
+                "candidate_status": {
+                    "Abdulrahman Marwan Mahmood": "Elected",
+                    "Colton Fridgen": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Trishir Kumar Singh": "Rejected",
+                    "Girish Verma": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Abdulrahman Marwan Mahmood": 22,
+                    "Mohammad Tanvir Azam Rizvie": 21,
+                    "Colton Fridgen": 20,
+                    "Trishir Kumar Singh": 0,
+                    "Girish Verma": 0
+                },
+                "candidate_status": {
+                    "Abdulrahman Marwan Mahmood": "Elected",
+                    "Mohammad Tanvir Azam Rizvie": "Elected",
+                    "Colton Fridgen": "Rejected",
+                    "Trishir Kumar Singh": "Rejected",
+                    "Girish Verma": "Rejected"
+                }
+            }
+        ],
+        "winners": ["Abdulrahman Marwan Mahmood", "Mohammad Tanvir Azam Rizvie"]
+    },
+    "Representative At-large": {
+        "rounds": [
+            {
+                "votes": {
+                    "Hamzah Punjabi": 23,
+                    "Kanika Mathur": 10,
+                    "Leah Murphy": 9,
+                    "Abdulrahman Marwan Mahmood": 9,
+                    "Colton Fridgen": 9,
+                    "Abhinav Salgania": 4,
+                    "Mohammad Tanvir Azam Rizvie": 2,
+                    "Somaditya Sinha": 1
+                },
+                "candidate_status": {
+                    "Hamzah Punjabi": "Hopeful",
+                    "Kanika Mathur": "Hopeful",
+                    "Leah Murphy": "Hopeful",
+                    "Abdulrahman Marwan Mahmood": "Hopeful",
+                    "Colton Fridgen": "Hopeful",
+                    "Abhinav Salgania": "Rejected",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Somaditya Sinha": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Hamzah Punjabi": 23,
+                    "Colton Fridgen": 11,
+                    "Abdulrahman Marwan Mahmood": 10,
+                    "Kanika Mathur": 10,
+                    "Leah Murphy": 9,
+                    "Abhinav Salgania": 0,
+                    "Mohammad Tanvir Azam Rizvie": 0,
+                    "Somaditya Sinha": 0
+                },
+                "candidate_status": {
+                    "Hamzah Punjabi": "Hopeful",
+                    "Colton Fridgen": "Hopeful",
+                    "Abdulrahman Marwan Mahmood": "Hopeful",
+                    "Kanika Mathur": "Hopeful",
+                    "Leah Murphy": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Somaditya Sinha": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Hamzah Punjabi": 26,
+                    "Colton Fridgen": 13,
+                    "Abdulrahman Marwan Mahmood": 11,
+                    "Kanika Mathur": 11,
+                    "Leah Murphy": 0,
+                    "Abhinav Salgania": 0,
+                    "Mohammad Tanvir Azam Rizvie": 0,
+                    "Somaditya Sinha": 0
+                },
+                "candidate_status": {
+                    "Hamzah Punjabi": "Hopeful",
+                    "Colton Fridgen": "Hopeful",
+                    "Abdulrahman Marwan Mahmood": "Hopeful",
+                    "Kanika Mathur": "Rejected",
+                    "Leah Murphy": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Somaditya Sinha": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Hamzah Punjabi": 31,
+                    "Colton Fridgen": 18,
+                    "Abdulrahman Marwan Mahmood": 12,
+                    "Kanika Mathur": 0,
+                    "Leah Murphy": 0,
+                    "Abhinav Salgania": 0,
+                    "Mohammad Tanvir Azam Rizvie": 0,
+                    "Somaditya Sinha": 0
+                },
+                "candidate_status": {
+                    "Hamzah Punjabi": "Elected",
+                    "Colton Fridgen": "Rejected",
+                    "Abdulrahman Marwan Mahmood": "Rejected",
+                    "Kanika Mathur": "Rejected",
+                    "Leah Murphy": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Somaditya Sinha": "Rejected"
+                }
+            }
+        ],
+        "winners": ["Hamzah Punjabi"]
+    },
+    "Technology Officer": {
+        "rounds": [
+            {
+                "votes": {
+                    "Zach Vaters": 37,
+                    "Abdullah Aqeel": 16,
+                    "Mohammed Balfaqih": 7,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 5,
+                    "Somaditya Sinha": 2
+                },
+                "candidate_status": {
+                    "Zach Vaters": "Elected",
+                    "Abdullah Aqeel": "Rejected",
+                    "Mohammed Balfaqih": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Somaditya Sinha": "Rejected"
+                }
+            }
+        ],
+        "winners": ["Zach Vaters"]
+    },
+    "International Student Representative": {
+        "rounds": [
+            {
+                "votes": {
+                    "Anas Mohammad Rashid": 17,
+                    "Gizem Ensari": 12,
+                    "Mohammed Balfaqih": 9,
+                    "Mohammad Tanvir Azam Rizvie": 9,
+                    "Abdullah Aqeel": 7,
+                    "Abhinav Salgania": 5,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 4,
+                    "Trishir Kumar Singh": 2
+                },
+                "candidate_status": {
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Gizem Ensari": "Hopeful",
+                    "Mohammed Balfaqih": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Abdullah Aqeel": "Hopeful",
+                    "Abhinav Salgania": "Hopeful",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Hopeful",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Anas Mohammad Rashid": 17,
+                    "Gizem Ensari": 14,
+                    "Mohammed Balfaqih": 9,
+                    "Mohammad Tanvir Azam Rizvie": 9,
+                    "Abdullah Aqeel": 7,
+                    "Abhinav Salgania": 5,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 4,
+                    "Trishir Kumar Singh": 0
+                },
+                "candidate_status": {
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Gizem Ensari": "Hopeful",
+                    "Mohammed Balfaqih": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Abdullah Aqeel": "Hopeful",
+                    "Abhinav Salgania": "Hopeful",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Anas Mohammad Rashid": 19,
+                    "Gizem Ensari": 14,
+                    "Mohammed Balfaqih": 9,
+                    "Mohammad Tanvir Azam Rizvie": 9,
+                    "Abdullah Aqeel": 7,
+                    "Abhinav Salgania": 6,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 0,
+                    "Trishir Kumar Singh": 0
+                },
+                "candidate_status": {
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Gizem Ensari": "Hopeful",
+                    "Mohammed Balfaqih": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Abdullah Aqeel": "Hopeful",
+                    "Abhinav Salgania": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Anas Mohammad Rashid": 19,
+                    "Gizem Ensari": 16,
+                    "Mohammed Balfaqih": 11,
+                    "Mohammad Tanvir Azam Rizvie": 10,
+                    "Abdullah Aqeel": 7,
+                    "Abhinav Salgania": 0,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 0,
+                    "Trishir Kumar Singh": 0
+                },
+                "candidate_status": {
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Gizem Ensari": "Hopeful",
+                    "Mohammed Balfaqih": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Hopeful",
+                    "Abdullah Aqeel": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Gizem Ensari": 19,
+                    "Anas Mohammad Rashid": 19,
+                    "Mohammed Balfaqih": 13,
+                    "Mohammad Tanvir Azam Rizvie": 10,
+                    "Abdullah Aqeel": 0,
+                    "Abhinav Salgania": 0,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 0,
+                    "Trishir Kumar Singh": 0
+                },
+                "candidate_status": {
+                    "Gizem Ensari": "Hopeful",
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Mohammed Balfaqih": "Hopeful",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Abdullah Aqeel": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Gizem Ensari": 27,
+                    "Anas Mohammad Rashid": 20,
+                    "Mohammed Balfaqih": 14,
+                    "Mohammad Tanvir Azam Rizvie": 0,
+                    "Abdullah Aqeel": 0,
+                    "Abhinav Salgania": 0,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 0,
+                    "Trishir Kumar Singh": 0
+                },
+                "candidate_status": {
+                    "Gizem Ensari": "Hopeful",
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Mohammed Balfaqih": "Rejected",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Abdullah Aqeel": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            },
+            {
+                "votes": {
+                    "Gizem Ensari": 32,
+                    "Anas Mohammad Rashid": 26,
+                    "Mohammed Balfaqih": 0,
+                    "Mohammad Tanvir Azam Rizvie": 0,
+                    "Abdullah Aqeel": 0,
+                    "Abhinav Salgania": 0,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 0,
+                    "Trishir Kumar Singh": 0
+                },
+                "candidate_status": {
+                    "Gizem Ensari": "Elected",
+                    "Anas Mohammad Rashid": "Rejected",
+                    "Mohammed Balfaqih": "Rejected",
+                    "Mohammad Tanvir Azam Rizvie": "Rejected",
+                    "Abdullah Aqeel": "Rejected",
+                    "Abhinav Salgania": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            }
+        ],
+        "winners": ["Gizem Ensari"]
+    },
+    "Social Representative": {
+        "rounds": [
+            {
+                "votes": {
+                    "Leah Murphy": 39,
+                    "Anas Mohammad Rashid": 12,
+                    "DEWAN MAKSUDUL ISLAM MUKTO": 7,
+                    "Kanika Mathur": 6,
+                    "Trishir Kumar Singh": 3
+                },
+                "candidate_status": {
+                    "Leah Murphy": "Elected",
+                    "Anas Mohammad Rashid": "Rejected",
+                    "DEWAN MAKSUDUL ISLAM MUKTO": "Rejected",
+                    "Kanika Mathur": "Rejected",
+                    "Trishir Kumar Singh": "Rejected"
+                }
+            }
+        ],
+        "winners": ["Leah Murphy"]
+    },
+    "Event Coordinator": {
+        "rounds": [
+            {
+                "votes": { "Anas Mohammad Rashid": 22, "Somaditya Sinha": 19, "Mohammed Balfaqih": 18 },
+                "candidate_status": {
+                    "Anas Mohammad Rashid": "Hopeful",
+                    "Somaditya Sinha": "Hopeful",
+                    "Mohammed Balfaqih": "Rejected"
+                }
+            },
+            {
+                "votes": { "Anas Mohammad Rashid": 30, "Somaditya Sinha": 27, "Mohammed Balfaqih": 0 },
+                "candidate_status": {
+                    "Anas Mohammad Rashid": "Elected",
+                    "Somaditya Sinha": "Rejected",
+                    "Mohammed Balfaqih": "Rejected"
+                }
+            }
+        ],
+        "winners": ["Anas Mohammad Rashid"]
+    },
+    "Treasurer": {
+        "rounds": [
+            {
+                "votes": { "Ripudaman Singh": 38, "Abdullah Aqeel": 29 },
+                "candidate_status": { "Ripudaman Singh": "Elected", "Abdullah Aqeel": "Rejected" }
+            }
+        ],
+        "winners": ["Ripudaman Singh"]
+    },
+    "Science Society Representative": {
+        "rounds": [
+            {
+                "votes": { "Kanika Mathur": 35, "Abhinav Salgania": 32 },
+                "candidate_status": { "Kanika Mathur": "Elected", "Abhinav Salgania": "Rejected" }
+            }
+        ],
+        "winners": ["Kanika Mathur"]
+    }
+}
