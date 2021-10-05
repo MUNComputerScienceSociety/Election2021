@@ -1,25 +1,21 @@
 {
-    "name": "election2021",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "name": "election-2021",
+    "version": "0.0.0",
     "scripts": {
-        "present": "spectacle -s src/slideshow/slides.mdx -t src/theme.js"
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nint8835/Election2021.git"
-    },
-    "author": "MUN Computer Science Society",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/nint8835/Election2021/issues"
-    },
-    "homepage": "https://github.com/nint8835/Election2021#readme",
     "dependencies": {
         "@nivo/bar": "^0.73.1",
         "@nivo/colors": "^0.73.0",
         "@nivo/core": "^0.73.0",
-        "spectacle-cli": "^0.6.5"
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "spectacle": "^8.4.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^1.0.2",
+        "vite": "^2.6.3"
     }
 }
