@@ -1,15 +1,17 @@
 import React from 'react';
+import Countdown from 'react-countdown';
 import { Deck, Slide } from 'spectacle';
 
 import ELECTION from './../election.json';
+import AllPositions from './AllPositions';
 import AllWinners from './AllWinners';
 import PositionDisplay from './PositionDisplay';
 import Winners from './Winners';
 
 const theme = {
     colors: {
-        primary: 'rgb(107, 184, 144)',
-        secondary: 'rgb(15, 63, 97)',
+        primary: 'white',
+        secondary: 'white',
     },
 };
 
@@ -37,30 +39,29 @@ const theme = {
 
 function App() {
     return (
-        <Deck theme={theme}>
-            <Slide>Countdown</Slide>
+        <Deck theme={theme} backgroundColor="white">
+            <Slide>
+                <Countdown
+                    date={Date.now() + 1000 * 60 * 5}
+                    renderer={(props) => (
+                        <div class="countdown">
+                            <h1>
+                                {props.minutes}:{props.seconds.toString().padStart(2, '0')}
+                            </h1>
+                        </div>
+                    )}
+                />
+            </Slide>
             <Slide>Introduction</Slide>
             <Slide>
-                <div className="display-header">
-                    <h1>Positions</h1>
-                </div>
-                <ul>
-                    <li>Treasurer</li>
-                    <li>First Year Representative (x2)</li>
-                    <li>Representative At-large</li>
-                    <li>Technology Officer</li>
-                    <li>International Student Representative</li>
-                    <li>Social Representative</li>
-                    <li>Event Coordinator</li>
-                    <li>Science Society Representative</li>
-                </ul>
+                <AllPositions electionData={ELECTION} />
             </Slide>
             <Slide>People running</Slide>
             <Slide>
                 <div className="display-header">
                     <h1>Ranked Choice Voting</h1>
                 </div>
-                <ul>
+                <ul class="ranked-choice">
                     <li>Voting was done via ranked choice voting</li>
                     <li>Vote counting was done via single transferable vote</li>
                     <ul>
