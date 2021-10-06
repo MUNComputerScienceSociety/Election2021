@@ -42,16 +42,18 @@ function App() {
     return (
         <Deck theme={theme} backgroundColor="white">
             <Slide>
-                <Countdown
-                    date={Date.now() + 1000 * 60 * 5}
-                    renderer={(props) => (
-                        <div class="countdown">
-                            <h1>
-                                {props.minutes}:{props.seconds.toString().padStart(2, '0')}
-                            </h1>
-                        </div>
-                    )}
-                />
+                <FlexBox width="100%" height="100%" alignItems="center" justifyContent="center">
+                    <Countdown
+                        date={Date.now() + 1000 * 60 * 5}
+                        renderer={(props) => (
+                            <div class="countdown">
+                                <h1>
+                                    {props.minutes}:{props.seconds.toString().padStart(2, '0')}
+                                </h1>
+                            </div>
+                        )}
+                    />
+                </FlexBox>
             </Slide>
             <Slide>Introduction</Slide>
             <Slide>
@@ -105,7 +107,11 @@ function App() {
             <Slide>
                 <AllWinners electionData={ELECTION} />
             </Slide>
-            <Slide>Thanks for coming</Slide>
+            <Slide>
+                <FlexBox width="100%" height="100%" alignItems="center" justifyContent="center">
+                    <h1>Thanks for coming!</h1>
+                </FlexBox>
+            </Slide>
         </Deck>
     );
 }
