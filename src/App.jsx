@@ -55,7 +55,18 @@ function App() {
                     />
                 </FlexBox>
             </Slide>
-            <Slide>Introduction</Slide>
+            <Slide>
+                <div className="display-header">
+                    <h1>Introduction</h1>
+                </div>
+                <ul class="intro">
+                    <li>Hello world!</li>
+                    <li>Review positions we had open</li>
+                    <li>Review our lovely candidates</li>
+                    <li>What even is ranked voting?</li>
+                    <li>The results!</li>
+                </ul>
+            </Slide>
             <Slide>
                 <AllPositions electionData={ELECTION} />
             </Slide>
@@ -90,9 +101,12 @@ function App() {
                 </ul>
             </Slide>
             <Slide>
-                <FlexBox width="100%" height="100%" alignItems="center" justifyContent="center">
-                    <h1>Now, time for the votes!</h1>
-                </FlexBox>
+                <div class="skele">
+                    <div>
+                        <h1>Now for the votes!</h1>
+                        <img class="skele" src="https://media3.giphy.com/media/THlB4bsoSA0Cc/200.gif" />
+                    </div>
+                </div>
             </Slide>
             {Object.entries(ELECTION).map(([positionName, { rounds, winners }]) => (
                 <React.Fragment key={positionName}>

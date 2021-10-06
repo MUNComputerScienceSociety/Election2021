@@ -6,7 +6,7 @@ export const candidateData = [
     { image: 'ripu', discord: null, fullName: 'Ripudaman Singh' },
     { image: 'abdullah', discord: null, fullName: 'Abdullah Aqeel' },
     { image: 'abdulrahman', discord: 'PunkBat', fullName: 'Abdulrahman Marwan Mahmood' },
-    { image: 'girish', discord: 'vvvv', fullName: 'Girish Verma,First Year' },
+    { image: 'girish', discord: 'vvvv', fullName: 'Girish Verma' },
     { image: 'mohammad-tanvir', discord: 'BearThumb', fullName: 'Mohammad Tanvir Azam Rizvie' },
     { image: 'anas', discord: 'pingoos', fullName: 'Anas Mohammad Rashid' },
     { image: 'zachary', discord: null, fullName: 'Zach Vaters' },
