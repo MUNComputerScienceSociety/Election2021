@@ -1,4 +1,13 @@
 {
+    "Treasurer": {
+        "rounds": [
+            {
+                "votes": { "Ripudaman Singh": 38, "Abdullah Aqeel": 29 },
+                "candidate_status": { "Ripudaman Singh": "Elected", "Abdullah Aqeel": "Rejected" }
+            }
+        ],
+        "winners": ["Ripudaman Singh"]
+    },
     "First Year Representative": {
         "rounds": [
             {
@@ -382,15 +391,6 @@
             }
         ],
         "winners": ["Anas Mohammad Rashid"]
-    },
-    "Treasurer": {
-        "rounds": [
-            {
-                "votes": { "Ripudaman Singh": 38, "Abdullah Aqeel": 29 },
-                "candidate_status": { "Ripudaman Singh": "Elected", "Abdullah Aqeel": "Rejected" }
-            }
-        ],
-        "winners": ["Ripudaman Singh"]
     },
     "Science Society Representative": {
         "rounds": [

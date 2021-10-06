@@ -5,6 +5,7 @@ import { ResponsiveBar } from '@nivo/bar';
 import { colorSchemes } from '@nivo/colors';
 
 export default ({ startingVotes, targetVotes }) => {
+    const candidates = Array.from(new Set(Object.keys(targetVotes)));
     if (startingVotes === undefined) {
         startingVotes = {};
     }
@@ -47,17 +48,17 @@ export default ({ startingVotes, targetVotes }) => {
                 data={voteArray}
                 indexBy="candidate"
                 keys={['count']}
-                margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
+                margin={{ top: 50, right: 130, bottom: 100, left: 60 }}
                 padding={0.3}
                 isInteractive={false}
-                // valueScale={{ type: 'linear' }}
-                // indexScale={{ type: 'band', round: true }}
-                // valueFormat={{ format: '', enabled: false }}
-                // colors={{ scheme: 'nivo' }}
-                colors={({ data }) => colorSchemes.pastel1[Object.keys(targetVotes).indexOf(data.candidate)]}
+                colors={({ data }) => colorSchemes.pastel1[candidates.indexOf(data.candidate)]}
                 theme={{
                     textColor: '#dddddd',
+                    fontFamily: 'Inter',
                 }}
+                labelTextColor="#222222"
+                axisBottom={{ tickRotation: 25 }}
+                axisLeft={null}
             />
         </FlexBox>
     );
