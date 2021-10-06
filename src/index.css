@@ -47,3 +47,15 @@ code {
 .winners img {
     height: 20rem;
 }
+
+.all-winners {
+    font-size: 0.5rem;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.all-winners img {
+    height: 10rem;
+}

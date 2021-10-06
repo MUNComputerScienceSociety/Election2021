@@ -1,5 +1,4 @@
-import React from 'react';
-import { candidateByFullName, candidateData } from './data';
+import { candidateByFullName } from './data';
 
 export default function Winners({ positionName, winners }) {
     return (

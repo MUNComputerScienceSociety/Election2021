@@ -2,6 +2,7 @@ import React from 'react';
 import { Deck, Slide } from 'spectacle';
 
 import ELECTION from './../election.json';
+import AllWinners from './AllWinners';
 import PositionDisplay from './PositionDisplay';
 import Winners from './Winners';
 
@@ -53,6 +54,9 @@ function App() {
                     </Slide>
                 </React.Fragment>
             ))}
+            <Slide>
+                <AllWinners electionData={ELECTION} />
+            </Slide>
             <Slide>Thanks for coming</Slide>
         </Deck>
     );
