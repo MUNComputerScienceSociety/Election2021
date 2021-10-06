@@ -1,10 +1,11 @@
-import { Deck, Slide, Heading } from 'spectacle';
-
+import { Deck, Slide } from 'spectacle';
+import Election from './../election.json';
+import TestElectionDisplay from './components/test_election_display.jsx';
 function App() {
     return (
         <Deck>
             <Slide>
-                <Heading>Welcome to Spectacle</Heading>
+                <TestElectionDisplay position={Election['International Student Representative']} />
             </Slide>
         </Deck>
     );
