@@ -5,7 +5,10 @@ export default function AllPositions({ electionData }) {
             <ul>
                 {Object.keys(electionData).map((positionName) => (
                     <li>
-                        <h3>{positionName}</h3>
+                        <h3>
+                            {positionName}
+                            {positionName === 'First Year Representative' ? ' (x2)' : ''}
+                        </h3>
                     </li>
                 ))}
             </ul>
