@@ -17,6 +17,7 @@ code {
 }
 
 .start {
+    opacity: 0.4;
     font-size: 3rem;
     padding: 0.25rem 1rem;
     margin: 0 auto;
@@ -27,4 +28,22 @@ code {
     height: 2rem;
     opacity: 0.1;
     margin: 0 0.25rem;
+}
+
+.winners {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.winners > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.winners h2 {
+    font-style: italic;
+}
+
+.winners img {
+    height: 20rem;
 }

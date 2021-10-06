@@ -1,7 +1,9 @@
+import React from 'react';
 import { Deck, Slide } from 'spectacle';
 
 import ELECTION from './../election.json';
 import PositionDisplay from './PositionDisplay';
+import Winners from './Winners';
 
 const theme = {
     colors: {
@@ -35,11 +37,23 @@ const theme = {
 function App() {
     return (
         <Deck theme={theme}>
+            <Slide>Countdown</Slide>
+            <Slide>Introduction</Slide>
+            <Slide>Positions</Slide>
+            <Slide>People running</Slide>
+            <Slide>Ranked Choice Voting</Slide>
+            <Slide>Now for the votes!</Slide>
             {Object.entries(ELECTION).map(([positionName, { rounds, winners }]) => (
-                <Slide key={positionName}>
-                    <PositionDisplay positionName={positionName} rounds={rounds} />
-                </Slide>
+                <React.Fragment key={positionName}>
+                    <Slide>
+                        <PositionDisplay positionName={positionName} rounds={rounds} />
+                    </Slide>
+                    <Slide>
+                        <Winners positionName={positionName} winners={winners} />
+                    </Slide>
+                </React.Fragment>
             ))}
+            <Slide>Thanks for coming</Slide>
         </Deck>
     );
 }
