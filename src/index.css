@@ -41,6 +41,10 @@ code {
     justify-content: space-evenly;
 }
 
+.winners > div > div {
+    width: 50%;
+}
+
 .winners h2 {
     font-style: italic;
 }
