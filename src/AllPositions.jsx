@@ -2,11 +2,13 @@ export default function AllPositions({ electionData }) {
     return (
         <div className="all-positions">
             <h1>Positions</h1>
-            {Object.keys(electionData).map((positionName) => (
-                <i>
-                    <h3>{positionName}</h3>
-                </i>
-            ))}
+            <ul>
+                {Object.keys(electionData).map((positionName) => (
+                    <li>
+                        <h3>{positionName}</h3>
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 }
