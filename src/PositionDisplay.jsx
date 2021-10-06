@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
-import RoundChart from './components/round_chart.jsx';
+import RoundChart from './RoundChart';
 
-export default function PositionDisplay({ positionName, rounds, winners }) {
+export default function PositionDisplay({ positionName, rounds }) {
     const [round, setRound] = useState(0);
     const [active, setActive] = useState(false);
 
@@ -40,7 +40,7 @@ export default function PositionDisplay({ positionName, rounds, winners }) {
             </div>
             {active ? (
                 <RoundChart
-                    startingVotes={round === 0 ? {} : rounds[round - 1].votes}
+                    initialVotes={round === 0 ? {} : rounds[round - 1].votes}
                     targetVotes={rounds[round].votes}
                 />
             ) : (

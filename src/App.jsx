@@ -37,7 +37,7 @@ function App() {
         <Deck theme={theme}>
             {Object.entries(ELECTION).map(([positionName, { rounds, winners }]) => (
                 <Slide key={positionName}>
-                    <PositionDisplay positionName={positionName} rounds={rounds} winners={winners} />
+                    <PositionDisplay positionName={positionName} rounds={rounds} />
                 </Slide>
             ))}
         </Deck>
