@@ -33,7 +33,7 @@ export default ({ startingVotes, targetVotes }) => {
                 newVotes[votedCandidate] += 1;
                 setVotes(newVotes);
             }
-        }, 1000);
+        }, 5);
         return () => {
             clearTimeout(timeout);
         };
@@ -43,7 +43,7 @@ export default ({ startingVotes, targetVotes }) => {
         .map(([k, v]) => ({ candidate: k, count: v }))
         .sort((a, b) => b.count - a.count);
     return (
-        <FlexBox flex={1} width="100%" height="100%">
+        <FlexBox flex={1} width="100%" height="80%">
             <ResponsiveBar
                 data={voteArray}
                 indexBy="candidate"
