@@ -1,6 +1,6 @@
 import React from 'react';
 import Countdown from 'react-countdown';
-import { Deck, Slide } from 'spectacle';
+import { Deck, FlexBox, Slide } from 'spectacle';
 
 import ELECTION from './../election.json';
 import AllCandidates from './AllCandidates';
@@ -87,7 +87,11 @@ function App() {
                     </ul>
                 </ul>
             </Slide>
-            <Slide>Now for the votes!</Slide>
+            <Slide>
+                <FlexBox width="100%" height="100%" alignItems="center" justifyContent="center">
+                    <h1>Now, time for the votes!</h1>
+                </FlexBox>
+            </Slide>
             {Object.entries(ELECTION).map(([positionName, { rounds, winners }]) => (
                 <React.Fragment key={positionName}>
                     <Slide>
