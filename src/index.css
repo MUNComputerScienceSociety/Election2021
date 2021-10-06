@@ -64,3 +64,17 @@ code {
 .all-winners img {
     height: 10rem;
 }
+
+.all-candidates {
+    font-size: 0.5rem;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.all-candidates img {
+    height: 7.75rem;
+}

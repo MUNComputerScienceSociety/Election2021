@@ -2,6 +2,7 @@ import React from 'react';
 import { Deck, Slide } from 'spectacle';
 
 import ELECTION from './../election.json';
+import AllCandidates from './AllCandidates';
 import AllWinners from './AllWinners';
 import PositionDisplay from './PositionDisplay';
 import Winners from './Winners';
@@ -55,7 +56,12 @@ function App() {
                     <li>Science Society Representative</li>
                 </ul>
             </Slide>
-            <Slide>People running</Slide>
+            <Slide>
+                <div className="display-header">
+                    <h1>Candidates</h1>
+                </div>
+                <AllCandidates />
+            </Slide>
             <Slide>
                 <div className="display-header">
                     <h1>Ranked Choice Voting</h1>
