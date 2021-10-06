@@ -4,7 +4,7 @@ import { FlexBox } from 'spectacle';
 import { ResponsiveBar } from '@nivo/bar';
 import { colorSchemes } from '@nivo/colors';
 
-const transofrmVotesToData = (votes) =>
+const transformVotesToData = (votes) =>
     Object.entries(votes)
         .map(([k, v]) => ({ candidate: k, count: v }))
         .sort((a, b) => b.count - a.count);
@@ -14,22 +14,26 @@ const TIMEOUT = 500;
 export default function RoundChart({ initialVotes, targetVotes }) {
     const candidates = useMemo(() => Array.from(new Set(Object.keys(targetVotes))), [targetVotes]);
 
-    const [votes, setVotes] = useState(() => {
+    const [votes, setVotes] = useState({});
+    const data = useMemo(() => transformVotesToData(votes), [votes]);
+
+    useEffect(() => {
         if (initialVotes === undefined) {
-            return {};
+            return setVotes({});
         }
 
-        return Object.fromEntries(
-            Object.entries(targetVotes).map(([candidate, targetCount]) => {
-                if (!(candidate in initialVotes)) {
-                    return [candidate, 0];
-                } else {
-                    return [candidate, Math.min(initialVotes[candidate], targetCount)];
-                }
-            }),
+        setVotes(
+            Object.fromEntries(
+                Object.entries(targetVotes).map(([candidate, targetCount]) => {
+                    if (!(candidate in initialVotes)) {
+                        return [candidate, 0];
+                    } else {
+                        return [candidate, Math.min(initialVotes[candidate], targetCount)];
+                    }
+                }),
+            ),
         );
-    });
-    const data = useMemo(() => transofrmVotesToData(votes), [votes]);
+    }, [initialVotes, targetVotes]);
 
     useEffect(() => {
         const timeout = setTimeout(() => {
