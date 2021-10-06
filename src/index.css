@@ -12,6 +12,15 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.countdown {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.ranked-choice li {
+    margin: 1rem 0;
+}
+
 .display-header {
     display: flex;
     justify-content: space-between;
