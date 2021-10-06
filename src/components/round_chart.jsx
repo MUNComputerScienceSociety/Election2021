@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FlexBox } from 'spectacle';
 
 import { ResponsiveBar } from '@nivo/bar';
+import { colorSchemes } from '@nivo/colors';
 
 export default ({ startingVotes, targetVotes }) => {
     if (startingVotes === undefined) {
@@ -52,8 +53,11 @@ export default ({ startingVotes, targetVotes }) => {
                 // valueScale={{ type: 'linear' }}
                 // indexScale={{ type: 'band', round: true }}
                 // valueFormat={{ format: '', enabled: false }}
-                colors={{ scheme: 'nivo' }}
-                colorBy="index"
+                // colors={{ scheme: 'nivo' }}
+                colors={({ data }) => colorSchemes.pastel1[Object.keys(targetVotes).indexOf(data.candidate)]}
+                theme={{
+                    textColor: '#dddddd',
+                }}
             />
         </FlexBox>
     );
