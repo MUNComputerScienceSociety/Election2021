@@ -40,7 +40,21 @@ function App() {
         <Deck theme={theme}>
             <Slide>Countdown</Slide>
             <Slide>Introduction</Slide>
-            <Slide>Positions</Slide>
+            <Slide>
+                <div className="display-header">
+                    <h1>Positions</h1>
+                </div>
+                <ul>
+                    <li>Treasurer</li>
+                    <li>First Year Representative (x2)</li>
+                    <li>Representative At-large</li>
+                    <li>Technology Officer</li>
+                    <li>International Student Representative</li>
+                    <li>Social Representative</li>
+                    <li>Event Coordinator</li>
+                    <li>Science Society Representative</li>
+                </ul>
+            </Slide>
             <Slide>People running</Slide>
             <Slide>
                 <div className="display-header">
@@ -56,8 +70,8 @@ function App() {
                             people who got the least votes are eliminated.
                         </li>
                         <li>
-                            Votes given to those who were eliminated are then transferred to the voter's second, third,
-                            etc. choice (whichever one is still in the running)
+                            Votes given to those who were eliminated are then transferred to each voter's second, third,
+                            etc. choice (whichever one is still in the running).
                         </li>
                         <li>Vote counting was done via the library PyRankVote</li>
                         <ul>

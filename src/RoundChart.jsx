@@ -9,7 +9,7 @@ const transformVotesToData = (votes) =>
         .map(([k, v]) => ({ candidate: k, count: v }))
         .sort((a, b) => b.count - a.count);
 
-const TIMEOUT = 500;
+const TIMEOUT = 1000;
 
 export default function RoundChart({ initialVotes, targetVotes }) {
     const candidates = useMemo(() => Array.from(new Set(Object.keys(targetVotes))), [targetVotes]);
