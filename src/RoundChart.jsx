@@ -64,9 +64,21 @@ export default function RoundChart({ initialVotes, targetVotes }) {
                 theme={{
                     textColor: '#dddddd',
                     fontFamily: 'Inter',
+                    labels: {
+                        text: {
+                            fontSize: 'large',
+                        },
+                    },
+                    axis: {
+                        ticks: {
+                            text: {
+                                fontSize: 'medium',
+                            },
+                        },
+                    },
                 }}
                 labelTextColor="#222222"
-                axisBottom={{ tickRotation: 25 }}
+                axisBottom={{ tickRotation: 15 }}
                 axisLeft={null}
             />
         </FlexBox>

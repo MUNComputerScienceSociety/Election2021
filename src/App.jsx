@@ -42,7 +42,30 @@ function App() {
             <Slide>Introduction</Slide>
             <Slide>Positions</Slide>
             <Slide>People running</Slide>
-            <Slide>Ranked Choice Voting</Slide>
+            <Slide>
+                <div className="display-header">
+                    <h1>Ranked Choice Voting</h1>
+                </div>
+                <ul>
+                    <li>Voting was done via ranked choice voting</li>
+                    <li>Vote counting was done via single transferable vote</li>
+                    <ul>
+                        <li>Comprised of a number of rounds</li>
+                        <li>
+                            At the end of each round, if there is not a person with a majority, then a certain number of
+                            people who got the least votes are eliminated.
+                        </li>
+                        <li>
+                            Votes given to those who were eliminated are then transferred to the voter's second, third,
+                            etc. choice (whichever one is still in the running)
+                        </li>
+                        <li>Vote counting was done via the library PyRankVote</li>
+                        <ul>
+                            <li>Library can be found at https://github.com/jontingvold/pyrankvote</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </Slide>
             <Slide>Now for the votes!</Slide>
             {Object.entries(ELECTION).map(([positionName, { rounds, winners }]) => (
                 <React.Fragment key={positionName}>
